@@ -1,0 +1,5 @@
+debian-dirs.patch
+documentation.patch
+encoding.patch
+apache-2.4.patch
+fixdoublefree.patch

@@ -1,0 +1,16 @@
+Source: libapache2-mod-auth-pgsql
+Maintainer: Marco Nenciarini <mnencia@debian.org>
+Section: httpd
+Priority: extra
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 7.0.50~), apache2-dev (>= 2.4), libpq-dev
+Vcs-Git: git://anonscm.debian.org/collab-maint/libapache2-mod-auth-pgsql.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libapache2-mod-auth-pgsql.git
+Homepage: http://www.giuseppetanzilli.it/mod_auth_pgsql2
+
+Package: libapache2-mod-auth-pgsql
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Module for Apache2 which provides PostgreSQL authentication
+ mod_auth_pgsql implements authentication and logging routines using PostgreSQL
+ tables for Apache's authentication protocol.

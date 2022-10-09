@@ -1,0 +1,12 @@
+Document: libapache2-mod-auth-pgsql
+Title: Module mod_auth_pgsql PostgreSQL authentication module for
+ Apache web server
+Author: Giuseppe Tanzilli
+Abstract: This module allows user authentication (and can log
+ authethication requests) against information stored in a PostgreSQL
+ database.
+Section: System/Security
+
+Format: HTML
+Index: /usr/share/doc/libapache2-mod-auth-pgsql/mod_auth_pgsql.html
+Files: /usr/share/doc/libapache2-mod-auth-pgsql/mod_auth_pgsql.html

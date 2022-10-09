@@ -1,0 +1,31 @@
+From: Marco Nenciarini <mnencia@debian.org>
+Date: Sat, 10 Aug 2013 16:26:41 +0200
+Subject: debian dirs
+
+---
+ Makefile | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 0ab38a4..eccaea6 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,12 +1,12 @@
+-APACHE2_HOME=/usr/local/apache2
+-PGSQL_LIB=/usr/local/pgsql/lib
+-PGSQL_INCLUDE=/usr/local/pgsql/include
++APACHE2_HOME=/usr
++PGSQL_LIB=/usr/lib
++PGSQL_INCLUDE=$(shell pg_config --includedir)
+ 
+ shared:
+-	${APACHE2_HOME}/bin/apxs  -i -a -c -I ${PGSQL_INCLUDE} -L ${PGSQL_LIB} -lpq mod_auth_pgsql.c
++	${APACHE2_HOME}/bin/apxs2 -a -c -I ${PGSQL_INCLUDE} -L ${PGSQL_LIB} -lpq mod_auth_pgsql.c
+ 
+ indent:
+ 	indent -kr -ts4 mod_auth_pgsql.c
+ 
+ clean:
+-	rm -rf .libs/ *.la *.o *.lo *.slo *~	
+\ No newline at end of file
++	rm -rf .libs/ *.la *.o *.lo *.slo *~

@@ -1,0 +1,55 @@
+This package was debianized by Marco Nenciarini <mnencia@debian.org> on
+Fri,  2 Apr 2004 19:33:23 +0200.
+
+It was downloaded from http://www.giuseppetanzilli.it/mod_auth_pgsql2/dist/
+
+Upstream Maintainer:
+
+                  Giuseppe Tanzilli <info@giuseppetanzilli.it>
+                                    <g.tanzilli@gruppocsf.com>
+				    
+Original source Authors:
+
+	    	  Adam Sussman <asussman@vidya.com> Feb, 1996
+    	    	  Matthias Eckermann <eckerman@lrz.uni-muenchen.de>
+
+Copyright:
+
+   =====================================================================
+   Copyright (c) 1996 Vidya Media Ventures, Inc. All rights reserved.
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   1. Redistributions of this source code or a derived source code must
+      retain the above copyright notice, this list of conditions and the
+      following disclaimer. 
+
+   2. Redistributions of this module or a derived module in binary form
+      must reproduce the above copyright notice, this list of conditions
+      and the following disclaimer in the documentation and/or other
+      materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY VIDYA MEDIA VENTURES, INC. ``AS IS'' AND 
+   ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+   THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+   PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL VIDYA MEDIA VENTURES, INC.
+   OR ITS EMPLOYEES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+   NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+   LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+   HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+   STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+   OF THE POSSIBILITY OF SUCH DAMAGE.
+   ====================================================================
+
+   This software is a contribution to and makes use of the Apache HTTP
+   server which is written, maintained and copywritten by the Apache Group.
+   See http://www.apache.org/ for more information.
+
+   This software makes use of libpq which an interface to the PostgreSQL
+   database.  PostgreSQL is copyright (c) 1994 by the Regents of the
+   University of California.  As of this writing, more information on
+   PostgreSQL can be found at http://www.postgresSQL.org/

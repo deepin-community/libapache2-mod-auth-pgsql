@@ -1,0 +1,7 @@
+libapache2-mod-auth-pgsql (2.0.3-5) unstable; urgency=low
+
+  The auth_pgsql module needs to be loaded before any other
+  authentication modules. So we renamed its configuration file to
+  000_auth_pgsql.load to make it loading first.
+
+ -- Marco Nenciarini <mnencia@debian.org>  Tue, 16 Oct 2007 10:44:11 +0200
